@@ -16,13 +16,16 @@ The tool leverages the immense processing power of your computer's graphics card
 
 - **C++ Version:** For those who prefer a more optimized approach, the C++ version takes advantage of the same **4070 Ti Super** GPU to achieve an astonishing **15,000,000,000 trials per second**. That's fifteen billion attempts every second, showcasing the incredible efficiency and speed possible with the right programming language and hardware.
 
-### **User-Friendly Interface**
+### **Testing**
 
-This project isn't just about raw power; it's also designed with ease of use in mind. Featuring a simple and intuitive graphical interface, users can effortlessly input the password they wish to test. The interface provides real-time feedback on the cracking process, displaying:
-
-- **Current Attempt:** Shows the latest password guess being tested.
-- **Status Updates:** Keeps you informed about the progress, whether the tool is actively cracking, paused, or has successfully found the password.
-- **Attempt Count:** Displays the total number of password combinations tried so far, giving you a clear sense of the tool's progress.
+If you want to test the Python code, simply import the necessary libraries and run the script. However, if you want to work with the C++ code, follow these steps:  
+1. Open the Command Prompt (or terminal).  
+2. Navigate to the folder containing the C++ code.  
+3. Compile the code using the command:  
+   ```bash
+   nvcc -o output_name input_name
+   ```  
+Here, replace `output_name` with the desired name for the compiled executable and `input_name` with the name of your C++ source file (e.g., `myfile.cu`).
 
 ### **Educational Purpose**
 
